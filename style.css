@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    background-color: rgb(93, 91, 91);
+    box-shadow: 4px 4px 4px 4px rgb(55, 55, 55);
+    border-radius: 8px;
+}
+
+header,p{
+    background-color: rgb(93, 91, 91);
+    padding: 6px;
+    text-align: center;
+    box-shadow: 3px 3px 3px rgb(55, 55, 55);
+    border-radius: 8px;
+    }
+
+.menu{
+    text-align: center;
+}
+
+.menu li{
+    padding: 5px 10px;
+    display: inline;
+    background-color: rgb(118, 115, 115);
+    box-shadow: 3px 3px 3px rgb(55, 55, 55);
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.menu li a:hover{
+    background-color: darkgrey;
+}
+
+h1{
+    background-color: rgb(93, 91, 91);
+    padding: 3px;
+    box-shadow: 3px 3px 3px rgb(55, 55, 55);
+    border-radius: 8px;
+}
+
+h2{
+    background-color: rgb(93, 91, 91);
+    padding: 6px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px rgb(55, 55, 55);
+}
+
+ul{
+    text-align: left;
+}
+
+form{
+    background-color: rgb(213, 212, 207);
+    width: 500px;
+    padding: 16px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(55, 55, 55);
+    margin: auto;
+}
+
+form div + div {
+    margin-top: 16px;
+}
+
+label{
+    color: black;
+    font-size: 14px;
+    display: inline-block;
+    width: 130px;
+    text-align: right;
+}
+
+input, textarea {
+    font-family: 1em sans-serif;
+    width: 260px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+    background-color: aquamarine;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    background-color: rgb(93, 91, 91);
+    box-shadow: 3px 3px 3px rgb(55, 55, 55);
+    border-radius: 8px;
+    padding: 4px;
+    margin: 4px;
+    margin-top: 20px;
+}
+
+
+

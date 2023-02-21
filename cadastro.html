@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/icone-cinema.png" type="image/x-icon">
+    <title>Locadora Cinemais - Cadastro de Locação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <header> &#x1F4FD; <strong>Locadora Cinemais</strong> &#x1F39E; </header> 
+    <p>O ponto de encontro de quem ama um bom filme &#x2615; &#x1f37f; &#x1f36b; </p>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="catalogo.html">Catálogo de Filmes</a></li>
+        </ul>
+    </nav>
+
+    <h2>Ficha Cadastral</h2>
+    <p>Preencha os dados abaixo e aguarde nosso contato</p>
+    <form action="cadastro.php" method="post">
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" name="nome" placeholder="Digite seu nome aqui">
+        </div>
+        <div>
+            <label for="e-mail">E-mail:</label>
+            <input type="text" name="e-mail" placeholder="Digite seu e-mail aqui">
+        </div>
+        <div>
+            <label for="telefone">Telefone:</label>
+            <input type="number" name="telefone" placeholder="(xx) xxxx-xxxx">
+        </div>
+        <div>
+            <label for="endereco">Endereço:</label>
+            <input type="text" name="endereco" placeholder="Digite seu endereço aqui">
+        </div>
+        <div>
+            <label for="nascimento">Data de nascimento</label>
+            <input type="date" name="nascimento">
+        </div>
+        <div class="button">
+            <button type="submit">Enviar dados<button>               
+        </div>
+    </form>
+
+</body>
+
+<footer>
+    
+    &reg; Locadora Cinemais - Rua da Pracinha, nº 80, Centro - Nenhum dos Direitos Reservados &copy;
+
+</footer>
+</html>
